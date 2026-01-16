@@ -44,9 +44,9 @@ tests = [
 type-check = ["mypy<1.19"]  # 1.19 incompatible with strawberry-graphql 0.287.0
 
 [project.urls]
-Documentation = "https://github.com/simonsobs/nextline-schedule#readme"
-Issues = "https://github.com/simonsobs/nextline-schedule/issues"
-Source = "https://github.com/simonsobs/nextline-schedule"
+Documentation = "https://github.com/nextline-dev/nextline-schedule#readme"
+Issues = "https://github.com/nextline-dev/nextline-schedule/issues"
+Source = "https://github.com/nextline-dev/nextline-schedule"
 
 [project.entry-points."nextline_graphql"]
 schedule = "nextline_schedule:Plugin"
